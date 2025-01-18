@@ -1,0 +1,12 @@
+/* import the required styles */
+@import "@vue-flow/core/dist/style.css";
+
+/* import the default theme (optional) */
+@import "@vue-flow/core/dist/theme-default.css";
+:root {
+  background-color: #242424;
+}
+body {
+  padding: 0;
+  margin: 0;
+}

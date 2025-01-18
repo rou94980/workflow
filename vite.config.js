@@ -8,6 +8,7 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     plugins: [vue()],
+    base: "/workflow/",
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
